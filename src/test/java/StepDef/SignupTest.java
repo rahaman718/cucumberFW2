@@ -1,4 +1,4 @@
-package Features.SignUp;
+package StepDef;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -23,6 +23,16 @@ public class SignupTest {
 
     @Then("I verify that I successfully signed up")
     public void iVerifyThatISuccessfullySignedUp() {
+
+    }
+
+    @When("we fill the form without password")
+    public void weFillTheFormWithoutPassword() {
+
+    }
+
+    @Then("I verify that I wasn't successfully signed up")
+    public void iVerifyThatIWasnTSuccessfullySignedUp() {
 
     }
 }

@@ -23,12 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a474ca2-b001-463c-9c06-bba866ed010b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/SignUp/SignUpWithEmail.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/SignUp/SignupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/DragNdrop/DragNdrop.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDef/DragNdropTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDef/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/SignUp/SignupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/SignupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Features/SignUp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cucumberFW1" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
