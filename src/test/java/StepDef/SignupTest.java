@@ -11,6 +11,7 @@ public class SignupTest {
         
     }
 
+
     @When("we fill the form with valid email address")
     public void weFillTheFormWithValidEmailAddress() {
         

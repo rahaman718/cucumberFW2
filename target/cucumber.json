@@ -1,0 +1,179 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-28T14:56:34.760Z",
+        "line": 3,
+        "name": "Test drag and drop",
+        "description": "",
+        "id": "drag-n-drop;test-drag-and-drop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "That I am on TalentTek dragNdrop page",
+            "match": {
+              "location": "StepDef.DragNdropTest.thatIAmOnTalentTekDragNdropPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I drag talentTEK object into new destination",
+            "match": {
+              "location": "StepDef.DragNdropTest.iDragTalentTEKObjectIntoNewDestination()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify that talentTEK became TalenTek IT TC",
+            "match": {
+              "location": "StepDef.DragNdropTest.iVerifyThatTalentTEKBecameTalenTekITTC()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Drag N Drop",
+    "description": "",
+    "id": "drag-n-drop",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/DragNdrop/DragNdrop.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-28T14:56:34.781Z",
+        "line": 3,
+        "name": "Sign Up With valid Email address",
+        "description": "",
+        "id": "sign-up;sign-up-with-valid-email-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "That I am on TalentTek home page",
+            "match": {
+              "location": "StepDef.SignupTest.thatIAmOnTalentTekHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we fill the form with valid email address",
+            "match": {
+              "location": "StepDef.SignupTest.weFillTheFormWithValidEmailAddress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Create my Account Button",
+            "match": {
+              "location": "StepDef.SignupTest.iClickOnTheCreateMyAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify that I successfully signed up",
+            "match": {
+              "location": "StepDef.SignupTest.iVerifyThatISuccessfullySignedUp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-28T14:56:34.785Z",
+        "line": 10,
+        "name": "Sign Up without password",
+        "description": "",
+        "id": "sign-up;sign-up-without-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "That I am on TalentTek home page",
+            "match": {
+              "location": "StepDef.SignupTest.thatIAmOnTalentTekHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "we fill the form without password",
+            "match": {
+              "location": "StepDef.SignupTest.weFillTheFormWithoutPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the Create my Account Button",
+            "match": {
+              "location": "StepDef.SignupTest.iClickOnTheCreateMyAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify that I wasn\u0027t successfully signed up",
+            "match": {
+              "location": "StepDef.SignupTest.iVerifyThatIWasnTSuccessfullySignedUp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign Up",
+    "description": "",
+    "id": "sign-up",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/SignUp/SignUpWithEmail.feature",
+    "tags": []
+  }
+]
